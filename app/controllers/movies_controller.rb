@@ -17,6 +17,14 @@ class MoviesController < ApplicationController
       description: "Quite the random movie, but a classic for sure!"
     }  
   end
+  def show_dreamgirls
+    @movie = {
+      title: 'Dreamgirls',
+      subtitle: "Big kid eating a brownie",
+      video_id: 'EVWOQwZENBg',
+      description: "Quite the random movie, but a classic for sure!"
+    }  
+  end
 
   def show_austinpowers3
     @movie = {
@@ -25,5 +33,8 @@ class MoviesController < ApplicationController
       video_id: 'SwB0ZJbwmpw',
       description: "Yeah baby!"
     } 
+  end
+  def show_all
+    
   end
 end
