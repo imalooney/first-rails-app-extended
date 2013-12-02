@@ -15,8 +15,15 @@ class MoviesController < ApplicationController
       subtitle: "Big kid eating a brownie",
       video_id: 'EVWOQwZENBg',
       description: "Quite the random movie, but a classic for sure!"
-    }
-    
+    }  
   end
 
+  def show_austinpowers3
+    @movie = {
+      title: 'Austin Powers Gold Member',
+      subtitle: "Oh, behave~!",
+      video_id: 'SwB0ZJbwmpw',
+      description: "Yeah baby!"
+    } 
+  end
 end
